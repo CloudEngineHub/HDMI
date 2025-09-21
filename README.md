@@ -1,9 +1,10 @@
 # HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos
 
 <div align="center">
+
 [[Website]](https://hdmi-humanoid.github.io/)
-<!-- [[Arxiv]](https://arxiv.org/pdf/2502.01143) -->
 [[Video]](https://www.youtube.com/watch?v=tu7LSNYWDTs&ab_channel=LeCARLabatCMU)
+<!-- [[Arxiv]](https://arxiv.org/pdf/2502.01143) -->
 </div>
 
 HDMI is a novel framework that enables humanoid robots to acquire diverse whole-body interaction skills directly from monocular RGB videos of human demonstrations.
