@@ -3,7 +3,7 @@
 <div align="center">
 
 [[Website]](https://hdmi-humanoid.github.io/)
-[[Video]](https://www.youtube.com/watch?v=tu7LSNYWDTs&ab_channel=LeCARLabatCMU)
+[[Video]](https://www.youtube.com/watch?v=GvIBzM7ieaA&list=PL0WMh2z6WXob0roqIb-AG6w7nQpCHyR0Z&index=12)
 <!-- [[Arxiv]](https://arxiv.org/pdf/2502.01143) -->
 </div>
 
