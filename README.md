@@ -2,9 +2,28 @@
 
 <div align="center">
 
-[[Website]](https://hdmi-humanoid.github.io/)
-[[Video]](https://www.youtube.com/watch?v=GvIBzM7ieaA&list=PL0WMh2z6WXob0roqIb-AG6w7nQpCHyR0Z&index=12)
-<!-- [[Arxiv]](https://arxiv.org/pdf/2502.01143) -->
+<!-- Website badge -->
+<a href="https://hdmi-humanoid.github.io/">
+  <img alt="Website" src="https://img.shields.io/badge/Website-Visit-blue?style=flat&logo=google-chrome"/>
+</a>
+
+<!-- Video badge -->
+<a href="https://www.youtube.com/watch?v=GvIBzM7ieaA&list=PL0WMh2z6WXob0roqIb-AG6w7nQpCHyR0Z&index=12">
+  <img alt="Video" src="https://img.shields.io/badge/Video-YouTube-red?style=flat&logo=youtube"/>
+</a>
+
+<!-- Arxiv badge (uncomment when ready) -->
+<!--
+<a href="https://arxiv.org/pdf/2502.01143">
+  <img alt="Arxiv" src="https://img.shields.io/badge/Paper-Arxiv-b31b1b?style=flat&logo=arxiv"/>
+</a>
+-->
+
+<a href="https://github.com/LeCAR-Lab/HDMI/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/LeCAR-Lab/HDMI?style=social"/>
+</a>
+
+
 </div>
 
 HDMI is a novel framework that enables humanoid robots to acquire diverse whole-body interaction skills directly from monocular RGB videos of human demonstrations.
