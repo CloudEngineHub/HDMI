@@ -1,23 +1,17 @@
 # HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos
 
 <div align="center">
-
-<!-- Website badge -->
 <a href="https://hdmi-humanoid.github.io/">
   <img alt="Website" src="https://img.shields.io/badge/Website-Visit-blue?style=flat&logo=google-chrome"/>
 </a>
 
-<!-- Video badge -->
 <a href="https://www.youtube.com/watch?v=GvIBzM7ieaA&list=PL0WMh2z6WXob0roqIb-AG6w7nQpCHyR0Z&index=12">
   <img alt="Video" src="https://img.shields.io/badge/Video-YouTube-red?style=flat&logo=youtube"/>
 </a>
 
-<!-- Arxiv badge (uncomment when ready) -->
-<!--
-<a href="https://arxiv.org/pdf/2502.01143">
+<a href="https://arxiv.org/pdf/2509.16757">
   <img alt="Arxiv" src="https://img.shields.io/badge/Paper-Arxiv-b31b1b?style=flat&logo=arxiv"/>
 </a>
--->
 
 <a href="https://github.com/LeCAR-Lab/HDMI/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/LeCAR-Lab/HDMI?style=social"/>
@@ -28,22 +22,21 @@
 
 HDMI is a novel framework that enables humanoid robots to acquire diverse whole-body interaction skills directly from monocular RGB videos of human demonstrations.
 
-This repository contains the official implementation of **HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos**.
-Project Page: [hdmi-humanoid.github.io](https://hdmi-humanoid.github.io/#/)
+This repository contains the official training code of **HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos**.
 
 
 ## TODO
 - [x] Release hdmi training code 
 - [x] hoi motion datasets
-- [ ] Release pretrained models
-- [ ] Release sim2real code
+- [x] Release pretrained models
+- [x] Release sim2real code
 
 
 ## 🚀 Quick Start
 
 ```bash
 # setup conda environment
-conda create -n hdmi python=3.11
+conda create -n hdmi python=3.11 -y
 conda activate hdmi
 
 # install isaacsim
@@ -54,6 +47,7 @@ isaacsim # test isaacsim
 cd ..
 git clone git@github.com:isaac-sim/IsaacLab.git
 cd IsaacLab
+git checkout v2.2.0
 ./isaaclab.sh -i none
 
 # install hdmi
@@ -83,4 +77,4 @@ python scripts/play.py algo=ppo_roa_finetune task=G1/hdmi/move_suitcase checkpoi
 ```
 ## Sim2Real
 
-TODO...
+Please see [github.com/EGalahad/sim2real](https://github.com/EGalahad/sim2real) for details.

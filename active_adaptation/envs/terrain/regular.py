@@ -37,8 +37,8 @@ PLANE_TERRAIN_CFG = TerrainImporterCfg(
         # improve_patch_friction=True
     ),
     visual_material=sim_utils.PreviewSurfaceCfg(
-        # diffuse_color=(0.5, 0.5, 0.5),
-        diffuse_color=(0.5, 0.2, 0.0),
+        diffuse_color=(0.5, 0.5, 0.5),
+        # diffuse_color=(0.5, 0.2, 0.0),
     )
 )
 
